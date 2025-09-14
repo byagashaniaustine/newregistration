@@ -21,7 +21,7 @@ jobs:
       - name: Install Deno
         uses: denoland/setup-deno@v2
         with:
-          deno-version: v2.x
+          deno-version: v1.x
 
       - name: Build step
         run: "cd frontend && npm install && npm run build"
@@ -32,5 +32,5 @@ jobs:
           project: "newregistra-62"
           entrypoint: "main.ts"
           root: "."
-          include: **/*
-          exclude: node_modules/** frontend/build/**
+          
+          
