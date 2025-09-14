@@ -1,0 +1,46 @@
+# -------------------
+# FRONTEND (React + Tailwind)
+# -------------------
+
+# Dependencies
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+frontend/build/
+
+# Local environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+frontend/.env.development
+
+# Debug / log files
+frontend/*.log
+
+# -------------------
+# BACKEND (Deno + Hono)
+# -------------------
+
+# Environment file (never expose secrets!)
+.env
+.env.local
+
+# Deno cache folder
+api/.deno/
+
+# Logs
+api/*.log
+
+# -------------------
+# COMMON / GLOBAL
+# -------------------
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
