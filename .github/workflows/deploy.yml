@@ -29,8 +29,8 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "austinebyag-registratio-16"
+          project: "newregistra-62"
           entrypoint: "main.ts"
           root: "."
-          
-          
+          include: **/*
+          exclude: node_modules/** frontend/build/**
